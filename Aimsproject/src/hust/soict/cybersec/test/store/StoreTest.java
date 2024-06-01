@@ -17,13 +17,13 @@ public class StoreTest {
 		store.addMedia(dvd3);
 		
 		
-		System.out.println(store.getItemsInStore(0).toString());
-		System.out.println(store.getItemsInStore(1).toString());
-		System.out.println(store.getItemsInStore(2).toString());
+		System.out.println(store.getItemsInStore().get(0).toString());
+		System.out.println(store.getItemsInStore().get(1).toString());
+		System.out.println(store.getItemsInStore().get(2).toString());
 		
 		store.removeMedia(dvd2);
 		
-		System.out.println(store.getItemsInStore(0).toString());
-		System.out.println(store.getItemsInStore(1).toString());
+		System.out.println(store.getItemsInStore().get(0).toString());
+		System.out.println(store.getItemsInStore().get(1).toString());
 	}
 }
