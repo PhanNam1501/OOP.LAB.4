@@ -8,8 +8,8 @@ public class Store {
 	int numMedia;
 	
 	
-	public Media getItemsInStore(int i) {
-		return itemsInStore.get(i);
+	public ArrayList<Media> getItemsInStore() {
+		return itemsInStore;
 	}
 	public int getNumMedia() {
 		return numMedia;
